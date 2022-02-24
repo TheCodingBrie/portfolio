@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 my-2 mx-auto bg-slate-dark text-green-text hover:bg-green-text hover:text-slate-dark rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+  }
+  .navbar-tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max right-14 rounded-md shadow-md text-slate-light bg-slate-dark font-bold transition-all duration-100 scale-0  origin-right;
+  }
+  .skill-icon {
+    @apply flex gap-2 items-center text-green-text text-xl;
+  }
+  .footer-icon {
+    @apply relative flex hover:text-green-text hover:cursor-pointer;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a192f;
+}
