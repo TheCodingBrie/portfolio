@@ -9,17 +9,45 @@ import { BsLinkedin } from "react-icons/bs";
 
 export default function Navbar() {
   return (
-    <div className="fixed top-0 right-0 h-screen w-16 m-0 pt-2 flex flex-col gap-1 justify-between bg-navy-light text-slate-light shadow-2xl">
+    <div className="fixed top-0 left-0 h-screen w-16 m-0 pt-2 pb-3 flex flex-col gap-1 justify-between bg-navy-light text-slate-light shadow-2xl">
       <div>
-        <NavbarIcon text={"Bio"} icon={<GiCheeseWedge size={30} />} />
-        <NavbarIcon text={"Skills"} icon={<GiSkills size={30} />} />
-        <NavbarIcon text={"Projects"} icon={<FaFolderOpen size={30} />} />
-        <NavbarIcon text={"Contact"} icon={<AiOutlineMail size={30} />} />
+        <NavbarIcon
+          text={"About me"}
+          icon={<GiCheeseWedge size={30} />}
+          link={"#about"}
+        />
+        <NavbarIcon
+          text={"Skills"}
+          icon={<GiSkills size={30} />}
+          link={"#skills"}
+        />
+        <NavbarIcon
+          text={"Projects"}
+          icon={<FaFolderOpen size={30} />}
+          link={"#projects"}
+        />
+        <NavbarIcon
+          text={"Contact"}
+          icon={<AiOutlineMail size={30} />}
+          link={"#contact"}
+        />
       </div>
       <div className="scale-100 xl:scale-0">
-        <NavbarIcon text={"Github"} icon={<AiFillGithub size={40} />} />
-        <NavbarIcon text={"Twitter"} icon={<SiTwitter size={30} />} />
-        <NavbarIcon text={"LinkedIn"} icon={<BsLinkedin size={28} />} />
+        <NavbarIcon
+          text={"Github"}
+          icon={<AiFillGithub size={40} />}
+          link={"https://github.com/TheCodingBrie"}
+        />
+        <NavbarIcon
+          text={"Twitter"}
+          icon={<SiTwitter size={30} />}
+          link={"https://twitter.com/BrieCoding"}
+        />
+        <NavbarIcon
+          text={"LinkedIn"}
+          icon={<BsLinkedin size={28} />}
+          link={"https://www.linkedin.com/in/guillaumebelangerbrie"}
+        />
       </div>
     </div>
   );

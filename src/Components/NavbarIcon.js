@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function NavbarIcon({ icon, text }) {
+export default function NavbarIcon({ icon, text, link }) {
   return (
-    <div className="navbar-icon group">
+    <a className="navbar-icon group" href={link}>
       {icon}
       <span className="navbar-tooltip group-hover:scale-100">{text}</span>
-    </div>
+    </a>
   );
 }

@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function NavbarIcon({ icon }) {
-  return <div className="footer-icon group">{icon}</div>;
+export default function NavbarIcon({ icon, link }) {
+  return (
+    <a href={link} className="footer-icon group">
+      {icon}
+    </a>
+  );
 }
