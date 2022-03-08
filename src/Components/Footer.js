@@ -2,7 +2,7 @@ import FooterIcon from "./FooterIcon";
 import { AiFillGithub } from "react-icons/ai";
 import { SiTwitter } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
-import { AiOutlineMail } from "react-icons/ai";
+// import { AiOutlineMail } from "react-icons/ai";
 
 export default function Footer() {
   return (
