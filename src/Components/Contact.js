@@ -12,12 +12,19 @@ export default function Contact() {
             Contact
           </h2>
         </div>
-        <div className="flex justify-center gap-5 w-[36em] min-h-[320px] mt-5 translate-x-3 sm:-translate-x-3 -translate-y-8 sm:text-justify rounded-xl text-slate-dark pt-6 px-3 mr-5 sm:mr-2">
+        <div className="flex justify-center gap-5 w-[36em] min-h-[370px] mt-5 translate-x-3 sm:-translate-x-3 -translate-y-8 sm:text-justify rounded-xl text-slate-dark pt-6 px-3 mr-5 sm:mr-2">
           <form
             className="flex flex-col justify-around gap-4 w-full"
             method="POST"
             action="#"
           >
+            <input
+              name="name"
+              className="bg-transparent text-gray-400 border border-slate-dark rounded-lg p-2 focus:outline-none focus:border-2 focus:border-slate"
+              placeholder="Your name"
+              type="text"
+              required
+            ></input>
             <input
               name="subject"
               className="bg-transparent text-gray-400 border border-slate-dark rounded-lg p-2 focus:outline-none focus:border-2 focus:border-slate"

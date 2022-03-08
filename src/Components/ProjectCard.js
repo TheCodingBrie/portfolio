@@ -10,12 +10,18 @@ export default function ProjectCard({ title, tech, hero, text, links }) {
         <p className="font-sans text-slate-light">{text}</p>
       </div>
       <div className="flex justify-evenly gap-2 mb-4 mt-2">
-        <button className="bg-slate-dark text-slate-light rounded-md px-2 hover:text-green-text">
+        <a
+          className="bg-slate-dark text-slate-light rounded-md px-2 hover:text-green-text hover:cursor-pointer"
+          href={links[0]}
+        >
           Project
-        </button>
-        <button className="bg-slate-dark text-slate-light rounded-md px-2 hover:text-green-text">
+        </a>
+        <a
+          className="bg-slate-dark text-slate-light rounded-md px-2 hover:text-green-text hover:cursor-pointer"
+          href={links[1]}
+        >
           Code
-        </button>
+        </a>
       </div>
     </div>
   );

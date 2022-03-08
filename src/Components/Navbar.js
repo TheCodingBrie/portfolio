@@ -9,7 +9,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 export default function Navbar() {
   return (
-    <div className="fixed top-0 left-0 h-screen w-16 m-0 pt-2 pb-3 flex flex-col gap-1 justify-between bg-navy-light text-slate-light shadow-2xl">
+    <div className="fixed top-0 left-0 h-screen w-16 m-0 pt-2 pb-8 flex flex-col gap-1 justify-between bg-navy-light text-slate-light shadow-2xl">
       <div>
         <NavbarIcon
           text={"About me"}
