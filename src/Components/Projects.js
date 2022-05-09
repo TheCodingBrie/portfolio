@@ -3,6 +3,7 @@ import interactiveStory from "../images/interactiveStory.png";
 import todoBoard from "../images/todoboard.png";
 import photopediaServer from "../images/photopediaServer.png";
 import photopedia from "../images/photopedia.png";
+import fightingGame from "../images/fightingGame.png";
 
 import ProjectCard from "./ProjectCard";
 
@@ -65,6 +66,18 @@ export default function Projects() {
             links={[
               "https://photopedia-server.herokuapp.com/api/locations",
               "https://github.com/TheCodingBrie/photopedia-server-mongo",
+            ]}
+          />
+          <ProjectCard
+            title={"Fighting Game"}
+            tech={"Javascript, HTML, CSS"}
+            hero={fightingGame}
+            text={
+              "A classic fighting game made with OOP and with many extra features, have fun and... FIGHT!"
+            }
+            links={[
+              "https://thecodingbrie-fighting-game.netlify.app/",
+              "https://github.com/TheCodingBrie/fighting-game",
             ]}
           />
         </div>
