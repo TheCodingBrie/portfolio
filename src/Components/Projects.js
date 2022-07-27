@@ -36,9 +36,7 @@ export default function Projects() {
             title={"TodoBoard"}
             tech={"React"}
             hero={todoBoard}
-            text={
-              "A simple drag and drop todolist with many options for the cards."
-            }
+            text={"A photo repository for amateur photographers."}
             links={[
               "https://TheCodingBrie.github.io/todolist-team/",
               "https://github.com/TheCodingBrie/todolist-team",
