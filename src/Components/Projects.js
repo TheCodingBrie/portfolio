@@ -36,7 +36,9 @@ export default function Projects() {
             title={"TodoBoard"}
             tech={"React"}
             hero={todoBoard}
-            text={"A photo repository for amateur photographers."}
+            text={
+              "A simple drag and drop todolist with many options for the cards."
+            }
             links={[
               "https://TheCodingBrie.github.io/todolist-team/",
               "https://github.com/TheCodingBrie/todolist-team",
@@ -46,9 +48,7 @@ export default function Projects() {
             title={"Photopedia"}
             tech={"MERN stack"}
             hero={photopedia}
-            text={
-              "A simple drag and drop todolist with many options for the cards."
-            }
+            text={"A photo repository for amateur photographers."}
             links={[
               "https://TheCodingBrie.github.io/photopedia/",
               "https://github.com/TheCodingBrie/Photopedia",
